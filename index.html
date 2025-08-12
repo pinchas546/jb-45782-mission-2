@@ -1,11 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <title>mission-2</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <form id="newForm" >
+      <h1>headline</h1>
+
+      <button id="showBtn">all</button>
+      <button id="clearBtn">clear</button><br>
+
+      <label for="searchInfo">search info</label>
+      <input type="text" id="searchInfo">
+
+      <button id="searchBtn">search</button>
+
+    </form>
+
+    <div id="inHere"></div>
+    <table class="tableFirst">
+      <tr>
+        <th>Country Name</th>
+        <th>Number of citizens</th>
+      </tr>
+      <tbody id="tableFirst">
+
+      </tbody>
+    </table>
+
+
+    <table >
+      <tr>
+        <th>region</th>
+        <th>Number of countries</th>
+      </tr>
+      <tbody id="tableScnd">
+
+      </tbody>
+    </table>
+  </body>
 </html>
